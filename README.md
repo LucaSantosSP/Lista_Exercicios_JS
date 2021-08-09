@@ -1,0 +1,1 @@
+Uma lista de exercícios JavaScript proposta pelo professor de Programação de Sítios para Internet da instituição de ensino Fatec Rubens Lara.
