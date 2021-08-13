@@ -44,11 +44,35 @@ function ordemReversa(lista){
     return reverso;
 }
 
-function nElementos(n, arr){
+function priElemento(n, arr){
     var retorno = [];
-    for (var i in n){
-        retorno.push(arr[i])
+    if (n >= arr){
+        return arr;
     }
-    document.write("<br> Primeiros " + n + " elementos da lista: ")
+    else{
+        for (var i = 0; i < n; i++){
+            retorno.push(arr[i]);
+        }
+        document.write("<br> Primeiros " + n + " elementos da lista: ")
+        return retorno;
+    }
+}
+
+function drop(n, arr){
+    var retorno = [];
+    if (n >= arr.length){
+        return [];
+    }
+    else{
+        for (var i = n; i < arr.length; i++){
+            retorno.push(arr[i]);
+        }
+    }
+    document.write("<br> Ultimos " + n + " elementos da lista: ")
     return retorno;
+}
+
+function medPon(pesos, valores){
+    var media = 0;
+    return media;
 }
